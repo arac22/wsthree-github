@@ -27,7 +27,7 @@ jobs:
     - name: configure
       run: chmod +x ./test-runner.sh
     - name: exec test
-    - run: ./test-runner.sh
+      run: ./test-runner.sh
     - name: print results
-    - run: echo "Test COMPLETED"
+      run: echo "Test COMPLETED"
 
